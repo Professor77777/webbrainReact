@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App.jsx";
 import Fruits from "./Fruits";
+import Dars3 from "./Dars3";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 const photos = [
@@ -14,6 +15,7 @@ root.render(
     {/* {photos.map((value) => {
       return <App data={value} />;
     })} */}
-    <Fruits />
+    {/* <Fruits /> */}
+    <Dars3 />
   </React.StrictMode>
 );
