@@ -6,12 +6,24 @@ class SignUp extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      name: "",
+      FirstName: "",
+      LastName: "",
+      Email: "",
+      Password: "",
     };
   }
   render() {
     const onChangeInput = (e) => {
       this.setState((prev) => ({ ...prev, name: e.target.value }));
+    };
+    const login = () => {
+      this.setState((prev) => ({
+        ...prev,
+        FirstName: this.state.FirstName,
+        LastName: this.state.LastName,
+        Email: this.state.Email,
+        Password: this.state.Password,
+      }));
     };
     return (
       <div className="wrapper">
@@ -31,7 +43,9 @@ class SignUp extends Component {
               />
             </div>
           ))}
-          <button type="submit">Sign Up</button>
+          <button type="submit" onSubmit={login}>
+            Sign Up
+          </button>
           <h5>
             Already registrated <a href="# ">sign in</a>?
           </h5>
