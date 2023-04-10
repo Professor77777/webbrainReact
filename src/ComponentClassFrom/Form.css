@@ -1,0 +1,78 @@
+.container {
+  width: 700px;
+  height: fit-content;
+  border: 1px solid black;
+  margin: 100px auto;
+  padding: 15px 10px;
+}
+.Title {
+  font-size: 20px;
+  font-weight: 700;
+}
+.input_wrapper {
+  width: 100%;
+  margin-top: 15px;
+  display: flex;
+  gap: 20px;
+}
+
+.input_search {
+  width: 70%;
+  padding: 5px 10px;
+}
+.select {
+  width: 26%;
+  padding: 5px 10px;
+  font-weight: 600;
+}
+.status_title {
+  width: 100%;
+  background-color: gray;
+  display: flex;
+  margin-top: 15px;
+  padding: 10px 25px;
+  /* justify-content: space-between; */
+}
+.status_name {
+  width: 295px;
+  margin-left: 10px;
+}
+.name {
+  width: 300px;
+  margin-left: 15px;
+  /* border: 1px solid black; */
+}
+
+.status {
+  width: 100px;
+  margin-left: 10px;
+  /* border: 1px solid black; */
+}
+.age {
+  width: 50px;
+  margin-left: 40px;
+}
+.edit {
+  margin-left: 30px;
+}
+
+.student_status {
+  width: 100%;
+  display: flex;
+  /* justify-content: space-around; */
+  padding: 10px 25px;
+}
+.footer {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+}
+.btn_footer {
+  padding: 5px 40px;
+  background-color: blue;
+  color: #fff;
+}
+.input_age {
+  width: 100px;
+}
