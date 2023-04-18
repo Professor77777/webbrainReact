@@ -1,4 +1,5 @@
 import styled from "styled-components";
+
 export const Wrapper = styled.div`
   width: 100%;
   // background-color: red;
@@ -12,7 +13,7 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: center;
+  // align-items: center;
 `;
 export const TitleMovie = styled.div`
   font-style: normal;
@@ -23,13 +24,24 @@ export const TitleMovie = styled.div`
   //   border: 0.5px solid #ffffff;
   margin-bottom: 20px;
 `;
-export const Movie = styled.div`
-  width: 100px;
-  height: 200px;
-  background: green;
-  border-radius: 10px;
+
+export const Card = styled.div`
+  width: 184px;
+  height: 256px;
+  border-radius: 16px;
+  // border: 2px solid green;
+  display: flex;
+  gap: 10px;
+  padding: auto;
 `;
 export const Image = styled.img`
-  width: 100%;
-  height: 100%;
+  width: 90%;
+  height: 90%;
+  // border: 2px solid red;
+  margin: 8px auto;
+
+  :hover {
+    width: 95%;
+    height: 95%;
+  }
 `;
