@@ -22,9 +22,7 @@ function Hook1() {
   };
   const deleteFruits = (id) => {
     const result = fruits.filter((fruit) => fruit.id !== id);
-    console.log(result);
-    // console.log(result);
-    setFruits(() => result);
+    setFruits((prev) => ({ ...prev, result }));
   };
   return (
     <div>
