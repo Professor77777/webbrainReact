@@ -20,10 +20,11 @@ function Hook1() {
     const { name, value } = e.target;
     setUser((prev) => ({ ...prev, [name]: value }));
   };
-  const deleteFruits = () => {
+  const deleteFruits = (id) => {
     const result = fruits.filter((fruit) => fruit.id !== id);
     console.log(result);
-    setFruits(() => deleteFruits);
+    // console.log(result);
+    setFruits(() => result);
   };
   return (
     <div>
@@ -45,8 +46,8 @@ function Hook1() {
         <div key={fruit.id}>
           {fruit.id}
           {fruit.name}
-          {fruit.price}{" "}
-          <button onClick={() => deleteFruits} style={{ width: "50px" }}>
+          {fruit.price}
+          <button onClick={deleteFruits} style={{ width: "50px" }}>
             x
           </button>
         </div>
