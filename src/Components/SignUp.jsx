@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "../Components/SignUp.css";
 import { data } from "./Data";
+import Dars3 from "../Dars3";
 
 class SignUp extends Component {
   constructor(props) {
