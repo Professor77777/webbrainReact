@@ -1,0 +1,19 @@
+.navbar {
+  width: 100%;
+}
+.navbar_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1440px;
+  padding: 40px 130px;
+  width: 100%;
+  border: 1px solid #000;
+  margin: auto;
+}
+ul {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  list-style-type: none;
+}
