@@ -1,6 +1,6 @@
 .wrapper {
   max-width: 400px;
-  height: 60vh;
+  height: 80vh;
   display: flex;
   justify-self: center;
   align-items: center;
@@ -18,7 +18,7 @@
 .wrapper form {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  /* gap: 20px; */
 }
 .wrapper form input {
   width: 100%;
@@ -27,4 +27,23 @@
 .wrapper .login {
   width: 100%;
   padding: 10px !important;
+}
+.form {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box !important;
+  /* border: 1px solid green; */
+}
+.ant-form-item .ant-form-item-label {
+  text-align: start !important;
+}
+.ant-form-horizontal .ant-form-item-label {
+  width: 70px;
+  height: 30px;
+}
+.ant-col .ant-col-8 .ant-form-item-label .css-dev-only-do-not-override-ed5zg0 {
+  width: 70px !important;
+}
+.ant-btn {
+  height: 40px !important;
 }

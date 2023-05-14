@@ -15,6 +15,7 @@ import Cart from "./ComponentsContext/Cart/Cart";
 import UsersContextProvider from "./useContext/UsersContext";
 import Controlled from "./ControlledCom/Controlled.jsx";
 import UnControlled from "./ControlledCom/UnControlled";
+import Practice from "./ControlledCom/Practice";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
@@ -32,7 +33,8 @@ root.render(
       </UsersContextProvider>
       {/* <Cart /> */}
     </ProductsContextProvider>
-    <Controlled />
-    <UnControlled />
+    {/* <Controlled />
+    <UnControlled /> */}
+    <Practice />
   </React.StrictMode>
 );
