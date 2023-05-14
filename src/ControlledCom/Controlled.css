@@ -1,0 +1,30 @@
+.wrapper {
+  max-width: 400px;
+  height: 60vh;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+}
+.container {
+  width: 100%;
+  /* border: 1px solid black; */
+}
+.title,
+.description {
+  text-align: center;
+  max-width: 300px;
+  margin-bottom: 10px;
+}
+.wrapper form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.wrapper form input {
+  width: 100%;
+  padding: 8px 10px;
+}
+.wrapper .login {
+  width: 100%;
+  padding: 10px !important;
+}
