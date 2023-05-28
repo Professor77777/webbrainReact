@@ -21,10 +21,10 @@ const UnControlled = () => {
     // });
   };
   const onKeyDown = (e) => {
-    // const { type, key } = e;
-    // if (type === "keydown" && key === "Enter") {
-    //   login();
-    // }
+    const { type, key } = e;
+    if (type === "keydown" && key === "Enter") {
+      login();
+    }
   };
   console.log("Login");
 

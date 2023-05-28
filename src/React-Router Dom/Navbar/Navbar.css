@@ -1,0 +1,28 @@
+.wrapper {
+  max-width: 1440px !important;
+  width: 100%;
+  height: fit-content;
+  background-color: #c05e5e;
+}
+.container {
+  width: 100%;
+  padding: 10px;
+  margin: auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  font-size: 24px;
+  font-weight: 700;
+  color: #fff;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 20px !important;
+}
+.login-btn {
+  width: 50px !important;
+}

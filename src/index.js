@@ -16,6 +16,8 @@ import UsersContextProvider from "./useContext/UsersContext";
 import Controlled from "./ControlledCom/Controlled.jsx";
 import UnControlled from "./ControlledCom/UnControlled";
 import Practice from "./ControlledCom/Practice";
+import { BrowserRouter } from "react-router-dom";
+import Root from "./React-Router Dom/Root/Root";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
@@ -26,15 +28,19 @@ root.render(
     <Hook1 />
     <Calculator /> */}
     {/* <Provider /> */}
-    <ProductsContextProvider>
+    {/* <ProductsContextProvider>
       <UsersContextProvider>
         <Navbar />
         <Body />
       </UsersContextProvider>
-      {/* <Cart /> */}
-    </ProductsContextProvider>
-    {/* <Controlled />
-    <UnControlled /> */}
-    <Practice />
+      <Cart />
+    </ProductsContextProvider> */}
+    {/* <Controlled /> */}
+    {/* <UnControlled />
+    <Practice /> */}
+
+    <BrowserRouter>
+      <Root />
+    </BrowserRouter>
   </React.StrictMode>
 );

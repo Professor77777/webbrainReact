@@ -1,8 +1,6 @@
 import React from "react";
 import "./Controlled.css";
-import { Button, Checkbox, Form, Input } from "antd";
-import { SettingOutlined } from "@ant-design/icons";
-import { Cascader, InputNumber, Select, Space } from "antd";
+import { Button, Checkbox, Form, Input, InputNumber } from "antd";
 
 const Practice = () => {
   const onFinish = (values) => {
